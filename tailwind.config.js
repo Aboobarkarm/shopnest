@@ -1,11 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx,html}",
-    "./public/index.html"
-  ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        '8xl': '96rem', // 1536px
+      },
+    },
   },
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,html}",
+    "./public/index.html",
+  ],
   plugins: [],
 };

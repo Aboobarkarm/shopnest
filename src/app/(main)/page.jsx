@@ -1,9 +1,16 @@
+import Banner from '@/components/Banner';
+import Category from '@/components/Category';
+import Products from '@/components/Products';
 import React from 'react'
 
 const page = () => {
   return (
-    <div className='text-red-500 text-center'>page</div>
+    <>
+      <Category />
+      <Banner />
+      <Products />
+    </>
   );
 };
-
+ 
 export default page;

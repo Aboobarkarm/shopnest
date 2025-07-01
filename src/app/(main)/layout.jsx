@@ -1,4 +1,4 @@
-// app/(main)/layout.js
+
 "use client";
 
 import ClientLayout from "@/app/clientLayout"

@@ -23,9 +23,8 @@ const Products = () => {
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 flex-col items-center gap-6 mt-6 pb-14 w-full">
-          {filteredProducts.map((product, index) => (
-            <ProductCard key={index} product={product} />
-          ))}
+          {filteredProducts.slice(0, 5).map((product, index) => (
+          <ProductCard key={index} product={product} />))}
         </div>
 
         <button

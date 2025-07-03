@@ -1,4 +1,3 @@
-
 export const bannerData = [
     {
         id: 1,
@@ -219,12 +218,12 @@ export const addressDummyData = [
   {
     "_id": "67a1e4233f34a77b6dde9055",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "fullName": "GreatStack",
+    "fullName": "Murtala Abubakar",
     "phoneNumber": "0123456789",
     "pincode": 654321,
-    "area": "Main Road , 123 Street, G Block",
-    "city": "City",
-    "state": "State",
+    "area": "Zaria",
+    "city": "Zaria",
+    "state": "Kaduna",
     "__v": 0
   }
 ]
@@ -284,7 +283,7 @@ export const orderDummyData = [
           "price": 429.99,
           "offerPrice": 329.99,
           "image": [
-            "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667311/m16coelz8ivkk9f0nwrz.png"
+            "https://res.cloudinary.com/djbvf02yt/image/upload_v1738667311/m16coelz8ivkk9f0nwrz.png"
           ],
           "category": "Headphone",
           "date": 1738667310300,
@@ -353,3 +352,8 @@ export const orderDummyData = [
     "__v": 0
   }
 ]
+export const cartDummyData = [
+  { productId: "67a1f4e43f34a77b6dde9144", quantity: 2 },
+  { productId: "67a1f52e3f34a77b6dde914a", quantity: 0 },
+  { productId: "67a1f5663f34a77b6dde914c", quantity: 3 }
+];

@@ -5,14 +5,14 @@ import { FaSearch, FaUser } from "react-icons/fa";
 import { BsCart } from "react-icons/bs";
 import { MdNotifications } from "react-icons/md";
 import { Button, Menu, MenuItem } from "@mui/material";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "@/context/AppContext";
 
 const Navbar = () => {
   const [search, setSearch] = useState(false);
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
 
-  // ✅ Pull from context
+  
   const {
     router,
     user,

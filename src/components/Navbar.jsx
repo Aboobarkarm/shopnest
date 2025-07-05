@@ -31,7 +31,7 @@ const Navbar = () => {
   const menuItems = [
     <MenuItem key="profile" onClick={() => { handleClose(); router.push("/my-orders"); }}>My Orders</MenuItem>,
     <MenuItem key="account" onClick={() => { handleClose(); router.push("/account"); }}>Account</MenuItem>,
-    <MenuItem key="logout" onClick={() => { handleClose(); logout(); }}>Logout</MenuItem>,
+    <MenuItem key="logout" onClick={() => { handleClose(); router.push("/auth/login"); }}>Logout</MenuItem>,
   ];
 
   if (isSpecificUser || isSuperAdmin) {
@@ -102,7 +102,7 @@ const Navbar = () => {
                     aria-controls={open ? "user-menu" : undefined}
                     aria-haspopup="true"
                     aria-expanded={open ? "true" : undefined}
-                    onClick={handleClick}
+                     onClick={handleClick}
                   >
                     {user.name?.charAt(0)}
                   </Button>

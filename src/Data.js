@@ -219,7 +219,7 @@ export const addressDummyData = [
     "_id": "67a1e4233f34a77b6dde9055",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "fullName": "Murtala Abubakar",
-    "phoneNumber": "0123456789",
+    "phoneNumber": "08140480040",
     "pincode": 654321,
     "area": "Zaria",
     "city": "Zaria",
@@ -356,4 +356,41 @@ export const cartDummyData = [
   { productId: "67a1f4e43f34a77b6dde9144", quantity: 2 },
   { productId: "67a1f52e3f34a77b6dde914a", quantity: 0 },
   { productId: "67a1f5663f34a77b6dde914c", quantity: 3 }
+];
+export const usersDummyData = [
+  {
+    name: "John Doe",
+    email: "john@example.com",
+    role: "ADMIN",
+    products: [1, 2],
+    orders: [1, 2, 3],
+  },
+  {
+    name: "Jane Smith",
+    email: "jane@example.com",
+    role: "SELLER",
+    products: [3],
+    orders: [4],
+  },
+  {
+    name: "Ali Musa",
+    email: "ali.musa@example.com",
+    role: "BUYER",
+    products: [],
+    orders: [5, 6],
+  },
+  {
+    name: "Fatima Bello",
+    email: "fatima.bello@example.com",
+    role: "SELLER",
+    products: [4, 5],
+    orders: [],
+  },
+  {
+    name: "Chinedu Okafor",
+    email: "chinedu.okafor@example.com",
+    role: "BUYER",
+    products: [],
+    orders: [7],
+  },
 ];

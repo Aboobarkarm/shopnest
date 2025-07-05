@@ -53,7 +53,7 @@ const MyOrders = () => {
       const orderIndex = orderDummyData.findIndex(order => order._id === id);
       if (orderIndex !== -1) {
         orderDummyData[orderIndex].status = OrderStatus.DELIVERED;
-        toast.success("Recieved, Thank You For Shopping with us");
+        toast.success("Thank You For Shopping with us");
         setOpen(false);
         // Optionally, refresh orders in UI
         setOrders([...orderDummyData]);

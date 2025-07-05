@@ -18,7 +18,7 @@ export function useSession() {
       const mockUser = {
         name: "Abubakar",
         email: "abubakar@example.com",
-        role: "ADMIN",
+        role: "SUPERADMIN",
         id: "12345",
       };
 
